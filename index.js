@@ -349,7 +349,7 @@ booky.delete('/book/delete/:isbn',async (req, res) => {
 
   const updatedBookDatabase = await BookModel.findOneAndDelete(
     {
-      ISBN: rq.params.isbn
+      ISBN: req.params.isbn
     }
   );
 
