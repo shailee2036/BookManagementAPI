@@ -27,7 +27,7 @@ mongoose.connect(process.env.MONGO_URL,
 
 /*
 Route               /
-description        get all bokks
+description        get all books
 access             public
 parameter          none
 methods            get
@@ -219,7 +219,7 @@ booky.post('/author/new', async (req, res) => {
   const { newAuthor } = req.body;
   const addNewAuthor = AuthorModel.create(newAuthor);
   return res.json({
-    author: addnewAuthor,
+    author: addNewAuthor,
     message: 'new add',
   });
 });
