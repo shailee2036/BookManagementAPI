@@ -23,12 +23,14 @@
 //2. AUTHORS
 //We need an API :-
 //To get all the authors - DONE
+//To add new author - Done 
 //To get a specific author based on id- YOUR  TASK
 //To get a list of authors based on books - DONE
 
 //3. PUBLICATIONS
 //We need an API :-
 //To get all the publications
+// To add new publication - Done
 //To get a specific publication - YOUR  TASK
 //To get a list of publications based on a book - YOUR TASK
 
